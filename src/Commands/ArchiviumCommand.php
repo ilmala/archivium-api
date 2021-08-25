@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ilmala\Archivium\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ArchiviumCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'archivium-api';
 
     public $description = 'My command';
 
