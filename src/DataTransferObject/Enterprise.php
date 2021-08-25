@@ -38,8 +38,7 @@ class Enterprise
         string $pec,
         string $email,
         string $externalId = null
-    )
-    {
+    ) {
         $this->id = $id;
         $this->type = $type;
         $this->personCode = $personCode;

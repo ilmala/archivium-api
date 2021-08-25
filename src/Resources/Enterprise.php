@@ -3,10 +3,8 @@
 namespace Ilmala\Archivium\Resources;
 
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Http;
 use Ilmala\Archivium\DataTransferObject\Enterprise as EnterpriseDataObject;
 use Ilmala\Archivium\Transporter\AdminTransporter;
-use Ilmala\Archivium\Transporter\Transporter;
 
 class Enterprise
 {

@@ -2,9 +2,9 @@
 
 namespace Ilmala\Archivium;
 
+use Ilmala\Archivium\Commands\ArchiviumCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ilmala\Archivium\Commands\ArchiviumCommand;
 
 class ArchiviumServiceProvider extends PackageServiceProvider
 {
